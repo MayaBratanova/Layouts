@@ -1,0 +1,56 @@
+@media screen and (max-width: 800px){
+    header nav.menu{
+      display: block;
+    }
+
+    header nav.menu p{
+      text-align: center;
+      padding-bottom: 1rem;
+    }
+
+    nav ul{
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      padding: 0;
+    }
+
+    .trainings{
+      display: block;
+    }
+
+    .trainings div{      
+      width: 50%;
+    }
+
+    .instructors-pic{
+      display: block;
+    }
+
+    .classes li {
+      width: 45%;
+    }
+
+    .getInTouch{
+      flex-direction: column;
+      padding-bottom: 2rem;
+    }
+
+    .getInTouch .map,
+    .getInTouch .form{
+      width: 100%;
+    }
+
+    .wrapper {
+      flex-wrap: wrap;
+    }
+  
+    .site-footer .about {
+      flex: 1 1 55%;
+    }
+  
+    .site-footer .sitemap {
+      flex: 1 1 55%;
+    }
+
+}

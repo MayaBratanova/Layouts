@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700,700i");
+@import url("https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i");
+body {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 16px;
+  font-family: "PT Sans", sans-serif;
+}
+
+/* For the all page */
+span {
+  color: #50b9e1;
+}
+
+.section-title {
+  font-family: "PT Serif", serif;
+  font-size: 32px;
+  letter-spacing: 2px;
+  font-style: italic;
+  margin: 0;
+  padding-bottom: 35px;
+}
+
+.button {
+  background: transparent;
+  border: none;
+  border: 2px solid;
+}
+
+.button-primary {
+  padding: 10px 15px;
+  font-size: 26px;
+  color: white;
+  border-color: white;
+}
+
+.button-primary:hover {
+  background: #50b9e1;
+  color: white;
+  border-color: #50b9e1;
+}
+
+.button-secondary {
+  padding: 8px 12px;
+  font-size: 18px;
+  color: #43bae3;
+  border-color:#43bae3;
+}
+
+.button-secondary:hover {
+  background: #43bae3;
+  color: white;
+}
+
+/* Navigation */
+.site-navigation {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-navigation .fa-bars {
+  display: none;
+}
+
+.site-logo {
+  font-size: 26px;
+}
+
+.list-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list-items a {
+  display: inline-block;
+  color: #474747;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.list-items a:hover {
+  color: #50b9e1;
+}
+
+.list-items-icons a {
+  padding: 5px;
+}
+
+.list-items-icons i {
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+/* Site-header */
+.section-welcome {
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url("img/kids_main.jpg") no-repeat center;    
+  background-size: cover;
+  padding: 200px 0 200px 100px;
+}
+
+.site-title {
+  margin: 0;
+  color: white;
+  font-size: 66px;
+  padding-bottom: 50px;
+  max-width: 800px;
+  letter-spacing: 2px;
+}
+
+/* Section Info */
+.section-info {
+  color: #5a7c8a;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+/* Section Offerts */
+.section-offerts {
+  padding: 50px 0;
+  background: #43bae3;
+  color: white;
+  text-align: center;
+}
+
+.section-offerts .list-item {
+  flex-basis: 33%;
+  padding: 25px 50px;
+}
+
+.section-offerts .list-item a {
+  color: white;
+  font-family: "PT Serif", serif;
+}
+
+.offert-image {
+  max-width: 70px;
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+.offert-title {
+  padding-bottom: 15px;
+}
+
+/* Section Camps */
+.section-camps {
+  text-align: center;
+  padding: 50px 50px 0 50px;
+  color: #5a7c8a;
+}
+
+.section-subtitle {
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.section-camps .list-items {
+  justify-content: space-around;
+}
+
+.section-camps .list-item {
+  flex-basis: 30%;
+  padding-bottom: 50px;
+}
+
+.camp-general-info {
+  padding-bottom: 10px;
+  border-bottom: 2px solid #5a7c8a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+.camp-price {
+  font-size: 34px;
+  background: #43bae3;
+  color: white;
+  padding: 5px;
+}
+
+.camp-image {
+  max-width: 400px;
+  width: 100%;
+  height: 220px;
+}
+
+.camp-more-info {
+  text-align: left;
+}
+
+.camp-more-info p {
+  padding: 15px 0;
+}
+
+/* Footer */
+.site-footer {
+  background: #43bae3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  color: #5a7c8a;
+}
+
+.site-footer .list-items-icons i {
+  border: 1px solid #5a7c8a;
+}
+
+.site-footer .list-items-icons a:hover {
+  color: black;
+}
+
+@media screen and (max-width: 1024px) {
+  .section-offerts .list-item {
+    flex-basis: 50%;
+  }
+
+  .section-camps .list-item {
+    flex-basis: 400px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .section-welcome {
+    padding: 100px 20px;
+  }
+
+  .site-title {
+    font-size: 50px;
+  }
+
+  .button-primary {
+    font-size: 18px;
+  }
+
+  .section-offerts .list-item {
+    flex-basis: 100%;
+    padding: 10px 25px;
+  }
+
+  .section-camps {
+    padding: 50px 20px 0 20px;
+  }
+
+  .section-subtitle {
+    width: 100%;
+  }
+
+  .site-navigation .list-items {
+    display: none;
+  }
+
+  .site-navigation .fa-bars {
+    display: block;
+  }
+
+  .site-footer {
+    flex-direction: column;
+  }
+
+  .site-footer .list-items {
+    padding-top: 15px;
+  }
+}

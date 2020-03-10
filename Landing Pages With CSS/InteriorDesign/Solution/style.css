@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;  
+  }
+  
+  html {
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {  
+    width: 1100px;
+    max-width: 100%;
+    margin: 0 auto;
+    color: #333;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Abril Fatface', cursive;
+  }
+
+  .page-content .image {      
+      background: url('./hutomo-abrianto-576207-unsplash.jpg') center center;
+      background-size: cover;
+      padding: 2rem 2rem 30% 0;
+  }
+
+  .page-info {
+      color: #fff;
+      background-image: linear-gradient(to right, #9b9189, #aca49e, #bdb8b3, #cfccc9, #c9c7c6);     
+      width: 20rem;
+      margin-left: auto;
+      padding: 1rem;
+      text-align: right;
+      box-shadow: 2px 1px 5px 2px rgb(129, 127, 127);   
+      text-shadow: 1px 1px 1px #272626;   
+  }
+
+  .page-info:before {
+      display: block;
+      content: '"';
+      font-size: 70px;
+      height: 3.5rem;
+      color: #8D8581;
+  }
+
+  .site-title {
+      margin-left: 3rem;
+      width: 15rem;
+      padding: 1.5rem 1rem;
+      box-shadow: 2px 1px 5px 0px rgb(82, 80, 80); 
+      color: rgb(54, 52, 52);     
+  }
+
+  .site-title span {
+    display: block;
+    padding-bottom: 0.5rem;
+  }
+
+  .site-title h1 {
+      border-bottom: 2px solid #fff;
+      width: 65%;
+      font-size: 36px;     
+  }
+
+  .site-title p {
+    margin-top: 0.5rem;
+  }
+
+.site-description {
+  display: flex;
+  background: rgb(242, 240, 243);  
+}
+
+main {
+  flex: 1 0 60%;  
+}
+
+main li {
+  margin-bottom: 1.5rem;
+}
+
+main h2 {
+  font-size: 34px;
+  text-transform: uppercase;
+  padding-bottom: 1.5rem;
+}
+
+.services {
+  padding: 3rem 5rem;
+}
+
+.services li {
+  list-style-position: inside; 
+}
+
+.services li span {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.contacts h2 {
+  border-bottom: 2px solid gray;
+  padding: 0 5rem 0 5rem;
+}
+
+.contacts ul {
+  padding: 1.5rem 5rem 0.5rem 5rem;  
+}
+
+.contacts form {
+  padding: 0 5rem;
+  margin-bottom: 2rem; 
+  margin-top: 1rem; 
+  display: flex;
+  align-items: flex-end;
+}
+
+.contacts form input {
+  border: none;
+  margin-right: 0.8rem;
+  width: 50%;
+  height: 2.6rem;
+  background: #BAB1AD;
+  padding: 0.3rem 1rem;
+  border-radius: 5px;
+  color: #fff;  
+}
+
+.contacts form input::placeholder {
+  color: #fff;
+}
+
+.contacts button {
+  background: #67784D;
+  color: #fff;
+  border-color: #67784D;
+  padding: .7rem 1.2rem;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid transparent;  
+}
+
+.contacts ul li {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.contacts ul li span {
+  font-weight: bold;
+  font-style: italic;
+}
+
+aside {
+  flex: 0 0 30%;
+  background: #BAB1AD;
+  padding: 3rem 1.5rem;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  line-height: 1;
+}
+
+aside .numbers {
+  font-size: 70px;
+  font-weight: 200;
+  color: white;
+  text-transform: lowercase;
+}
+
+.icon {
+  list-style: none;  
+}
+
+.icon:before {
+  display: inline-block;
+  font: 'Font Awesome 5 Free'; 
+  font-weight: 900;
+}
+
+ i{
+   display: inline-block;
+   padding-right: 0.5rem;
+ }
+  

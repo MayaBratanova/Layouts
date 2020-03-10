@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|PT+Serif:400,400i,700,700i');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+*, *:before, *:after{
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  box-sizing: inherit;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.img{
+  width: 600px;
+  position: relative;
+  overflow: hidden;    
+}
+
+.img:after{
+  display: block;
+  content: '';
+  padding-top: 56.25%;
+}
+
+.third .img img,
+.second img{
+  width: 100%;
+  height: auto;  
+  position: absolute;
+  top: 0; left: 0;
+}
+
+.first{
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.2)), url("./image/computer-main.jpg") no-repeat center;    
+  background-size: cover;  
+  color: white;
+  text-align: center;
+  padding-bottom: 5rem;
+  text-shadow: 0 2px 2px #000000;
+}
+
+.first .nav{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+  padding: 2rem 0;
+  font-size: 1.2rem;
+}
+
+.first .nav i{
+  font-size: 1.5rem;
+}
+
+.first h1{
+  font-size: 54px;
+  font-weight: bold;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+}
+
+body > section > p{
+  width: 40%;
+  margin: 0 auto;
+  font-size: 22px;
+}
+
+
+button{
+  border: none;
+  background: #00d08e;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  color: white;
+  border-radius: 0.2rem;
+  margin: 4rem auto 3.2rem auto;
+  display: block;  
+  border: 3px solid #00d08e;
+  cursor: pointer;
+}
+
+button:hover{
+  border:3px solid white;
+  color: white;
+  background: transparent;
+}
+
+.first a{
+  color: white;
+  font-size: 20px;  
+  text-decoration: none;
+  text-shadow: 0 2px 2px #000000;
+}
+
+.first a i{
+  padding-left: 0.4rem;
+}
+
+body > section.first > a:hover{
+  color: #00d08e;
+}
+
+.third,
+.second{  
+  display: flex;
+  font-size: 21px;
+  color: #20252d;   
+}
+
+body > section.second > div.box > ul{
+  padding-bottom: 2rem;
+}
+
+.third h2,
+.second h2{  
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.1;
+  margin-bottom: .5rem;
+ 
+}
+
+.second p{
+  padding-bottom: 2rem;
+}
+
+.third .box1,
+.second .box{
+  width: 600px;
+  margin: 0 auto;   
+}
+
+.box section{
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.box1 section{
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.second .box ul li{
+    font-size: 18px;
+    line-height: 1.75em;
+    padding: 0 0 10px;
+    list-style: none;
+}
+
+.second ul li i{  
+  font-size: 20px; 
+  color: #00d08e; 
+  padding: 5px;  
+  margin: 0 16px 0 0;
+}
+
+
+.third .box1-Image img{
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+.box1-Image{
+  display: flex;   
+  flex-wrap: wrap;
+}
+
+.box1{
+  width: 50%;
+  margin: 2rem auto;
+ 
+}
+
+.box1-Image div{
+ width: 26%;
+ margin: 0 auto;
+ text-align: center;
+ color: #00d08e;   
+}
+
+body > section.third > div.box1 > section > div > div:nth-child(1),
+body > section.third > div.box1 > section > div > div:nth-child(2),
+body > section.third > div.box1 > section > div > div:nth-child(3){
+  padding-bottom: 2.5rem;
+}
+
+.fourth h2,
+.box1 h2{
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.1;
+  margin-bottom: 2rem;
+  text-align: center;
+  
+}
+
+.box1 h2{
+  margin-bottom: 3rem;
+}
+
+.fourth{
+  background: rgba(0, 208, 142, 0.3); 
+  padding: 2rem;
+  font-size: 18px;
+  color: #20252d; 
+}
+
+.box2{
+  width: 90%;
+  margin: 0 auto;
+ 
+}
+
+.box2 p{
+  font-size: 16px;
+}
+
+.box2 p a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+}
+
+.row div{
+  width: 28%;
+  text-align: center;
+}
+
+.fourth h4{
+   font-weight: bold;
+    font-size: 21px;
+    line-height: 1.75em;
+    margin: 20px 0 0;
+}
+
+
+.email{
+  text-align: center;
+  margin: 0 auto;
+}

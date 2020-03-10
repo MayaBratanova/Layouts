@@ -1,0 +1,14 @@
+body {
+    background: $color-spacing;
+    padding: 2em;
+}
+
+.site-wrapper {
+    max-width: 1600px;
+    min-width: 1400px;
+    width: 100%;
+    margin: 0  auto;
+    background: $color-primary;
+    border-radius: $global-layout-gutter;
+}
+

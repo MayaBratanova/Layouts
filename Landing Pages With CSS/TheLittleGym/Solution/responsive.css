@@ -1,0 +1,104 @@
+@media screen and (max-width: 1024px) {
+    html {
+        font-size: 12px;
+    }   
+
+    .site-main {
+        margin: 0;
+    }
+
+    .entry-header {
+        border-radius: 0;
+    }   
+
+    .entry-header-description {        
+        top: 30px;
+        left: 72px;
+    }    
+
+    .site-information {
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {    
+    html {
+        font-size: 10px;
+    }
+
+    .site-navigation {
+        display: none;
+    }
+
+    .entry-header {      
+        padding: 5rem 0 5rem 0;
+    }
+
+    .site-information {
+        text-align: center;
+    }
+
+    .site-information-text {
+        flex-basis: 100%;
+    }
+
+    .site-information-image {
+        display: none;
+    }
+
+    .entry-header-description {
+        top: 26px;
+        left: 60px;
+    }
+
+    .entry-description {
+       margin: 0 auto;
+    }
+
+    .site-logo {
+        width: 25%;        
+    }
+
+    .site-logo:last-child {
+        margin-right: 2rem;
+      }
+
+    .site-form {
+        margin-top: 0;
+    }
+
+    form > p {
+       flex-direction: column;
+    }
+
+    form label {
+        margin-bottom: 0.6rem;
+    }
+
+    form input {
+        width: 100%;
+    }
+    .site-blog-container {
+        margin: 0;
+    }
+
+    .site-posts {
+        flex-wrap: wrap;
+    }
+
+    .site-post {
+        flex: 0 0 60%;
+        margin-bottom: 2rem;
+    }
+
+    .site-form button {
+        margin: auto;
+    }
+
+    .site-footer {
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+    }
+    
+}

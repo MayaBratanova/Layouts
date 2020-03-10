@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
+html{
+    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: rgb(235, 240, 240); 
+    padding-top: 4rem;   
+}
+
+article{
+    width: 30%;
+    margin: 0 auto;    
+}
+
+h1{
+    letter-spacing: 0.2rem;
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 3px solid #007ACC;    
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    color: rgb(70, 70, 70);
+}
+
+label{
+    display: block;
+    margin-left: -9px;
+    color: #A89797;
+    margin-bottom: 0.5rem;
+    text-align: left;
+}
+.star{
+    color: red;
+    font-size: 12px;
+    position: relative;
+    top: -3px;
+}
+
+input{    
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.6rem 1rem 0.6rem 2.4rem;
+    outline: none;
+    border: 1px solid #C4DFE9;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#more-info{
+    font-size: 12px;
+    color: #BFCFD4;
+}
+
+button{
+    width: 100%; 
+    margin: 0 auto;
+    font-size: 20px;
+    background: #007ACC;
+    color: white;        
+    text-align: center; 
+    border: none;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+form div{
+    position:relative;
+}
+
+i{
+    border-right: 1px solid rgb(92, 87, 87);
+    padding-right: 10px;
+    color: rgb(92, 87, 87);
+    width: 25px;
+}
+
+body > article > form > div > i{
+    position: absolute;    
+    left: 8px;    
+    top: 38px;
+}
+
+
+
+

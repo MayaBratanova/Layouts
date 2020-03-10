@@ -1,0 +1,35 @@
+.page-wrapper {
+    max-width: 1260px;
+    margin: 0 auto;
+    font-family: $font-sans;
+}
+
+.site-banner {   
+    box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.75);
+    background: #000;
+    // overflow: hidden;
+    // background: url('../../src/images/thomas-william-FD03zUvwznY-unsplash.jpg') no-repeat center center;
+
+    .page-wrapper {
+        display: flex;
+        justify-content: center;
+
+        &:before {
+            content: '';
+            display: table;
+        }
+
+        .entry-aside:after {
+            content: '';
+            display: table;
+        }
+    }   
+
+    .column-width {
+
+        &-large {            
+           margin: 0;
+        }       
+    }   
+}
+

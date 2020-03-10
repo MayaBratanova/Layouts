@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|PT+Serif:400,400i,700,700i");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  box-sizing: inherit;
+}
+
+body {
+  max-width: 100vw;
+  margin: 0 auto;
+}
+
+.contact-nav {
+  background: #d01919;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+}
+
+.contact-nav i {
+  padding-right: 0.8rem;
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navigation ul li a {
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+}
+
+.navigation i {
+  color: #d01919;
+}
+
+.navigation ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation li {
+  list-style: none;
+}
+
+.first-section {
+  padding: 1rem 3.8rem 3rem 2.7rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("../Requirements-and-Resources/image/fitness-main.jpg") no-repeat center;
+  background-size: cover;
+  color: white;
+}
+
+.navigation p {
+  width: 20%;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+.navigation nav {
+  width: 50%;
+}
+
+.navigation p i {
+  padding-right: 10px;
+}
+
+.first-section-main {
+  text-align: center;
+  padding-top: 2.5rem;
+}
+
+.first-section-main h1 {
+  font-family: PT Serif;
+  font-size: 66px;
+  letter-spacing: 0.5rem;
+  font-weight: 900;  
+  padding: 4rem 0 2rem 0;
+}
+
+.first-section-main p {
+  width: 40%;
+  margin: 0 auto;
+  font-size: 18px;
+  padding-bottom: 3rem;
+}
+
+.first-section-main button {
+  border: none;
+  background: #d01919;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0.8rem 1.2rem;
+  color: white;
+  border-radius: 0.2rem;
+  margin-bottom: 5rem;
+}
+
+.fourth-section {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.second-section {
+  text-align: center;
+  padding: 3rem 0 0 0;
+}
+
+.fourth-section h2,
+.second-section h2 {
+  font-size: 36px;
+  letter-spacing: 2px;
+}
+
+hr {
+  background: #d01919;
+  width: 3%;
+  height: 2px;
+  border: none;
+  margin: 2rem auto;
+}
+
+.second-section p {
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+.third-section {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+}
+
+.third-section > div {
+  width: 30%;
+  text-align: center;
+  padding: 0 0.2rem 1rem 0.2rem;
+  border-radius: 5px;
+}
+
+.third-section > div p {
+  font-size: 16px;
+}
+
+.third-section > div h3 {
+  color: #d01919;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 24px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.third-section img {
+  width: 60px;
+  height: 60px;
+}
+
+.fourth-section {
+  background: #efefef;
+}
+
+.fourth-section ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.fourth-section li {
+  width: 25%;
+  margin: 0 auto;
+  list-style: none;
+}
+
+.fourth-section img {
+  border-radius: 10px;
+}
+
+.fourth-section li > p {
+  width: 300px;
+  display: inline-block;
+  color: #939393;
+}
+
+.fourth-section li div {
+  padding: 1rem;
+}
+
+.fourth-section li div h4 {
+  font-size: 24px;
+  color: #252525;
+}
+
+.fourth-section li div p {
+  font-size: 20px;
+  color: #d01919;
+}
+
+footer {
+  background: #d01919;
+  text-align: center;
+  padding: 0.7rem 0;
+  color: #252525;
+}

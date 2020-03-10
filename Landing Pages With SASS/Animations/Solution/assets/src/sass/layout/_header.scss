@@ -1,0 +1,35 @@
+.site-header {     
+    margin: 3em 0;
+
+    .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between; 
+        align-items: center;
+    }
+
+    .site-title {
+        font-weight: 500;
+        font-size: 1.2em;
+        animation: 0.5s ease-out 0s 1 fadeInLeft;        
+    }
+
+    .site-adv {
+        color: $color-secondary;
+        font-size: 0.9em;
+        animation: 0.5s ease-out 0s 1 fadeInRight;
+    }
+
+    .site-adv span {
+        color: $color-text;
+    }
+
+    @media only screen and (max-width: $breakpoint-small) {       
+        margin: 2em 0;      
+        
+        .wrapper {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }
+}
